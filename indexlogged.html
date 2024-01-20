@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broke Bank</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cards.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="indexlogged.html" style="text-decoration: none; color: antiquewhite;">Broke Bank</a></h1>
+        <div>
+            <button class="loginbtt" onclick="logout()">Logout</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Account Balance: <span id="balance">$1000.00</span> <button onclick="loadBalance()"
+                    style="margin: 4px;">&#8635;</button></h2>
+
+        </section>
+
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+
+                        <div class="description">
+                            <h4>Credit Card</h4>
+                            <p>Keep on track of your virtual cards and much more in one place</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+
+                        <div class="description">
+                            <h4>Investing</h4>
+                            <p>Investing right is when you can feel safe about the team taking care of your investments. Start investing today with us.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+
+                        <div class="description">
+                            <h4>Shopping</h4>
+                            <p>All the products and services you're looking for in one place. Shop with many of our partners.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <div class="row">
+
+                        <div class="description">
+                            <h4>IDLYBF</h4>
+                            <p>Just a little friend.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <!-- Other sections for transactions, account info, etc. -->
+    </main>
+    <script src="js/scripts.js"></script>
+    <script src="js/indexlogged.min.js"></script>
+</body>
+
+</html>

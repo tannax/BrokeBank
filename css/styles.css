@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0e085e;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #338f70;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 7%;
+}
+
+
+.createaccbtt {
+    background-color: #c1e66c;
+    color: #241d1d;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.loginbtt {
+    background-color: #e2ece9;
+    color: #241d1d;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #13794e;
+}

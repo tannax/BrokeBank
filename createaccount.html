@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accountlogin.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none; color: antiquewhite;">Broke Bank</a></h1>
+        <div>
+            <button class="createaccbtt" onclick="redirectToCreateAccount()">Create Account</button>
+            <button class="loginbtt" onclick="redirectToLogInAccount()">Login</button>
+        </div>
+    </header>
+    <main>
+        <section class="login-section">
+            <div class="login-form">
+                <form id="accountForm">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="passw" name="passw" required><br>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/register.min.js"></script>
+</body>
+
+</html>
